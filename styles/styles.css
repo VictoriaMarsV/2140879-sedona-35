@@ -54,6 +54,8 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+.page-header-logo {
+}
 .navigation-header {
   display: flex;
   width: 1200px;
@@ -111,7 +113,7 @@ body {
   background-image: url(../images/index/index-background.jpg);
   background-repeat: no-repeat;
 }
-.page-container {
+.container {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -129,8 +131,12 @@ body {
 }
 
 .advantages-list-item-decorated::before {
+  display: block;
   content: "";
-  color: rgba(0, 0, 0, 0.3);
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 60px;
+  height: 2px;
 }
 .greeting {
   display: block;
